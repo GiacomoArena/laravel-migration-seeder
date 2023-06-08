@@ -9,7 +9,7 @@ use App\Models\Train;
 class PageController extends Controller
 {
     public function index(){
-        $pizzas = Pizza::orderBy('price')->get();
-        return view('home', compact('pizzas'));
+        $trains = Train::all();
+        return view('home', mpact('pizzas'));
     }
 }
