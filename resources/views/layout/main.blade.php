@@ -18,7 +18,7 @@
 <body>
 
     <div class="container">
-        <h1>Trains</h1>
+
 
         @yield('content')
 

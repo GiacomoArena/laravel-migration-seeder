@@ -1,12 +1,16 @@
-@extends('layout.main');
+@extends('layout.main')
 
 @section('content')
 
+<h1>Trains</h1>
 
+<ul>
+    @foreach ($trains as $train )
 
-@foreach ( as )
+        <li> ciao {{$train->start_station}}</li>
 
-@endforeach
+    @endforeach
+</ul>
 
 
 
